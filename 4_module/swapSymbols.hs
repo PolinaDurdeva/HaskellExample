@@ -1,0 +1,1 @@
+swapSymbols xs = map (\x -> if x == '!' then '?' else if x == '?' then '!' else x) xs
